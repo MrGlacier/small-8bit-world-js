@@ -1,0 +1,31 @@
+{
+  "name": "small-8bit-world",
+  "version": "0.0.1",
+  "description": "an 8-bit world that lives. All just to learn to code ;-)",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrGlacier/small-8bit-world-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrGlacier/small-8bit-world-js/issues"
+  },
+  "homepage": "https://github.com/MrGlacier/small-8bit-world-js#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "pixi.js": "^6.5.3"
+  }
+}
